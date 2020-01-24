@@ -14,7 +14,7 @@ body {
   padding: 12px;
   transition: box-shadow 200ms linear;
 }
-
+<!---->
 .card:hover {
   box-shadow: 0 0 0 1px #ccc, 0 0 64px 32px rgba(0, 0, 255, 0.2);
 }
