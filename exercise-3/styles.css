@@ -1,7 +1,52 @@
 body {
   margin: 0;
+ padding: 0;
 }
-
 * {
   box-sizing: border-box;
 }
+.slider-radio:nth-of-type(1):checked ~ .slide-img:nth-last-of-type(1),
+.slider-radio:nth-of-type(2):checked ~ .slide-img:nth-last-of-type(2),
+.slider-radio:nth-of-type(3):checked ~ .slide-img:nth-last-of-type(3){
+    display: inline-block;
+}
+input[type="radio"]{
+    display: none;
+}
+ul{
+    text-align: center;
+    position: relative;
+}
+li{
+    list-style: none;
+    padding: 0;
+    display:inline-block;
+}
+
+.section slider {
+    background-color: beige;
+    padding: 25px;
+    margin: 30px;
+    width: auto;
+    height: 215px;
+}
+label{
+    background: white;
+    padding: 25px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.bullets{
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
